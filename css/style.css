@@ -3,10 +3,30 @@ body {
   padding: 0px;
   background-image: url(../images/grey_wash_wall.png);
   background-repeat: repeat;
+  overflow-x: hidden;
+  height:100%;
 }
+
+html {
+  height: 100%;
+}
+
+.p50 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+.dem1 {
+            box-sizing: border-box;
+            padding: 30%;
+        }.bg1 {
+            background: url(../images/rhino.jpg);
+            background-size:100%;
+            background-repeat: no-repeat;
+        }
 
 #chart-cont-1 {
   padding-top: 10rem;
+  height:100%;
 }
 
 #center-chart-1 {
