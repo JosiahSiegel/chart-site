@@ -14,10 +14,13 @@ body {
 }
 
 #rhino-outline {
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0 auto;
-  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+#rhino-chart {
+  z-index: 1;
+  opacity: 50;
 }
 
 .prev {
