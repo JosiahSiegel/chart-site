@@ -1,9 +1,7 @@
 body {
-  margin: 0px;
   padding: 0px;
   background-image: url(../images/grey_wash_wall.png);
   background-repeat: repeat;
-  overflow-x: hidden;
   height:100%;
 }
 
@@ -11,7 +9,21 @@ html {
   height: 100%;
 }
 
-#home {
+#down-icon-row {
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+} #down-icon {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.v-align{
+  position: relative;
+  top: 11%;
+}
+
+#rhino-background {
   background: url(../images/rhino.jpg) 50% 100% no-repeat;
   background-attachment: fixed;
   height: 50%;
@@ -40,9 +52,9 @@ html {
 
 .prev {
   font-size: xx-large;
-  color: #333
+  color: #333;
 }
 
 .prev:hover {
-  color: #444
+  color: #444;
 }
