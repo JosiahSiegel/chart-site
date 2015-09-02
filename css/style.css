@@ -15,12 +15,7 @@ html {
   width: 100%;
 } #down-icon {
   text-align: center;
-  font-size: xx-large;
-}
-
-.v-align{
-  position: relative;
-  top: 11%;
+  font-size: x-large;
 }
 
 #rhino-background {
@@ -28,7 +23,6 @@ html {
   background-attachment: fixed;
   height: 50%;
   background-size: 100%;
-  margin: 0 auto;
 }
 
 #chart-cont-1 {
@@ -50,11 +44,12 @@ html {
   opacity: 50;
 }
 
-.prev {
-  font-size: xx-large;
+.neutral-btn {
   color: #333;
+} .neutral-btn:hover {
+  color: #444;
 }
 
-.prev:hover {
-  color: #444;
+.prev {
+  font-size: xx-large;
 }
