@@ -7,6 +7,17 @@ body {
 
 html {
   height: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#title {
+  font-family: impact;
+  margin-left: 10px;
 }
 
 #down-icon-row {
@@ -15,7 +26,6 @@ html {
   width: 100%;
 } #down-icon {
   text-align: center;
-  font-size: x-large;
 }
 
 #rhino-background {
@@ -46,10 +56,47 @@ html {
 
 .neutral-btn {
   color: #333;
-} .neutral-btn:hover {
+}
+
+.neutral-btn:hover {
   color: #444;
 }
 
-.prev {
-  font-size: xx-large;
+.neutral-btn:focus {
+  color: #444;
+  outline: 0;
+}
+
+#info-cont {
+  height: 100%;
+}
+
+#info {
+  background-color: #333;
+  border-radius: 20px;
+  margin-top: 50%;
+}
+
+#author-title {
+  color: #555;
+  text-align: center;
+  font-weight: 600;
+}
+
+#info-icons {
+  text-align: center;
+}
+
+#info-icons > a {
+  text-decoration: none;
+  outline: 0;
+}
+
+#info-icons > a > i {
+  padding: 10px;
+  color: #555;
+}
+
+#info-icons > a > i:hover {
+  color: #444;
 }
